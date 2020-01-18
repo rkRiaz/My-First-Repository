@@ -1,0 +1,36 @@
+
+
+
+<------------------Git Instruction------------->
+
+cd //for change directory
+mkdir "floder name" //to make new folder
+
+git config --global user.name "Your name"
+git config --global email.name "youremail@example.com"
+
+
+
+1.  cd F:  //go to F drive
+2.  touch index.html  //make index.html file
+3.  dir  //to see which folders/files are here
+4.  notepad index.html  //for open the file in nodepad
+5.  cat index.html  //To see what texts are in the file
+6.  git status  //To check the status of the folder. We will know is the folder is in the repository or not
+7.  git init  //to initialize git //then need to add the file to commit
+8.  git status  //to check git status again. The file is being seen red as it was not added before 
+9.  git add .  //all edited file will be added
+10. git status  //now we see the file in green font. That means files are added and ready for commit
+11. git commit -m "Commit Message Area"  //will be commited
+12. git log  //to see the information with git id
+13. git log --oneline //to see 7 digit id
+14. git log --oneline -3 //to see firt three commited file
+15. git remote add origin "Repository Link" // origin is the short form of the link
+16. git remote -v  //To check the version 
+17. git push -u origin master  //-u for local-remote tracking. This will save the file in online github repository
+
+then if we edit or add any file we need to add the file again then commit and then push.
+
+
+
+
